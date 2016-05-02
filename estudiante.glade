@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.18.3 -->
+<interface>
+  <requires lib="gtk+" version="3.12"/>
+  <object class="GtkApplicationWindow" id="ventana">
+    <property name="width_request">800</property>
+    <property name="height_request">500</property>
+    <property name="can_focus">False</property>
+    <property name="type_hint">menu</property>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="width_request">800</property>
+        <property name="height_request">484</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkGrid" id="grid1">
+            <property name="width_request">797</property>
+            <property name="height_request">354</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_top">3</property>
+            <property name="row_spacing">1</property>
+            <property name="column_spacing">1</property>
+            <property name="row_homogeneous">True</property>
+            <property name="column_homogeneous">True</property>
+            <child>
+              <object class="GtkButton" id="button1">
+                <property name="label" translatable="yes">Horas</property>
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="halign">baseline</property>
+                <property name="valign">center</property>
+                <property name="resize_mode">immediate</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button2">
+                <property name="label" translatable="yes">07:00-09:00</property>
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button3">
+                <property name="label" translatable="yes">09:00-11:00</property>
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button4">
+                <property name="label" translatable="yes">11:00-13:00</property>
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button5">
+                <property name="label" translatable="yes">--------</property>
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">4</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button6">
+                <property name="label" translatable="yes">15:00-17:00</property>
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">5</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button7">
+                <property name="label" translatable="yes">17:00-19-00</property>
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">6</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button8">
+                <property name="label" translatable="yes">Lunes</property>
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button15">
+                <property name="label" translatable="yes">Martes</property>
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">2</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button22">
+                <property name="label" translatable="yes">Miercoles</property>
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">3</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button35">
+                <property name="label" translatable="yes">Jueves</property>
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">4</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button36">
+                <property name="label" translatable="yes">Viernes</property>
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">5</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label4">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">--------</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">4</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label9">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">--------</property>
+              </object>
+              <packing>
+                <property name="left_attach">2</property>
+                <property name="top_attach">4</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label16">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">--------</property>
+              </object>
+              <packing>
+                <property name="left_attach">3</property>
+                <property name="top_attach">4</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label21">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">--------</property>
+              </object>
+              <packing>
+                <property name="left_attach">4</property>
+                <property name="top_attach">4</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label28">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">--------</property>
+              </object>
+              <packing>
+                <property name="left_attach">5</property>
+                <property name="top_attach">4</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label1">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label2">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label3">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label5">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">5</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label6">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">6</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label7">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">2</property>
+                <property name="top_attach">6</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label8">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">2</property>
+                <property name="top_attach">5</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label10">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">2</property>
+                <property name="top_attach">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label11">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">2</property>
+                <property name="top_attach">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label12">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">2</property>
+                <property name="top_attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label13">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">3</property>
+                <property name="top_attach">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label14">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">3</property>
+                <property name="top_attach">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label15">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">3</property>
+                <property name="top_attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label17">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">3</property>
+                <property name="top_attach">5</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label18">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">3</property>
+                <property name="top_attach">6</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label19">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">4</property>
+                <property name="top_attach">6</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label20">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">4</property>
+                <property name="top_attach">5</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label22">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">5</property>
+                <property name="top_attach">6</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label23">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">5</property>
+                <property name="top_attach">5</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label24">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">4</property>
+                <property name="top_attach">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label25">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">4</property>
+                <property name="top_attach">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label26">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">4</property>
+                <property name="top_attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label27">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">5</property>
+                <property name="top_attach">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label29">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">5</property>
+                <property name="top_attach">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label30">
+                <property name="width_request">110</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">LIBRE</property>
+                <property name="justify">center</property>
+                <property name="ellipsize">end</property>
+                <property name="max_width_chars">10</property>
+                <property name="lines">2</property>
+                <property name="xalign">0.49000000953674316</property>
+              </object>
+              <packing>
+                <property name="left_attach">5</property>
+                <property name="top_attach">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">1</property>
+            <property name="y">93</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label31">
+            <property name="width_request">66</property>
+            <property name="height_request">21</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="opacity">0.97999999999999998</property>
+            <property name="label" translatable="yes">Nombre:</property>
+            <attributes>
+              <attribute name="style" value="oblique"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">39</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label32">
+            <property name="width_request">59</property>
+            <property name="height_request">21</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Cedula:</property>
+            <attributes>
+              <attribute name="style" value="oblique"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">59</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label33">
+            <property name="width_request">194</property>
+            <property name="height_request">29</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Horario de clases </property>
+            <attributes>
+              <attribute name="font-desc" value="&lt;Enter Value&gt; 14"/>
+              <attribute name="style" value="oblique"/>
+              <attribute name="weight" value="ultraheavy"/>
+              <attribute name="foreground" value="#20204a4a8787"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">309</property>
+            <property name="y">3</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
