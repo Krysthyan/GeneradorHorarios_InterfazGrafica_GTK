@@ -35,6 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/InterfazGrafica.o \
+	${OBJECTDIR}/ManejoDatos.o \
 	${OBJECTDIR}/main.o
 
 
@@ -56,11 +58,21 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/proyectooptativa
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/generadorhorarios
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/proyectooptativa: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/generadorhorarios: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/proyectooptativa ${OBJECTFILES} ${LDLIBSOPTIONS} `pkg-config gtk+-3.0 --libs`
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/generadorhorarios ${OBJECTFILES} ${LDLIBSOPTIONS} `pkg-config gtk+-3.0 --libs`
+
+${OBJECTDIR}/InterfazGrafica.o: InterfazGrafica.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/InterfazGrafica.o InterfazGrafica.cpp
+
+${OBJECTDIR}/ManejoDatos.o: ManejoDatos.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ManejoDatos.o ManejoDatos.cpp
 
 ${OBJECTDIR}/main.o: main.cpp 
 	${MKDIR} -p ${OBJECTDIR}
@@ -73,7 +85,7 @@ ${OBJECTDIR}/main.o: main.cpp
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/proyectooptativa
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/generadorhorarios
 
 # Subprojects
 .clean-subprojects:

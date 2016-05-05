@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=proyectooptativa
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/proyectooptativa
+CND_ARTIFACT_NAME_Debug=generadorhorarios
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/generadorhorarios
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=proyectooptativa.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/proyectooptativa.tar
+CND_PACKAGE_NAME_Debug=generadorhorarios.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/generadorhorarios.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=proyectooptativa
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/proyectooptativa
+CND_ARTIFACT_NAME_Release=generadorhorarios
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/generadorhorarios
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=proyectooptativa.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/proyectooptativa.tar
+CND_PACKAGE_NAME_Release=generadorhorarios.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/generadorhorarios.tar
 #
 # include compiler specific variables
 #
