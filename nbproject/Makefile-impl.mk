@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=GeneradorHorarios
+PROJECTNAME=ProyectoOptativa
 
 # Active Configuration
 DEFAULTCONF=Debug
